@@ -1,0 +1,112 @@
+
+db.getCollection('health').aggregate([
+{$unwind:"$bookableObject"},
+{$unwind:"$bookableObject.tnxStatus"},
+{$match:{$and:[{'bookableObject.tnxStatus.bookedDates.date':'2017-10-23'}]}}
+]
+)
+
+
+db.getCollection('health').aggregate([
+{$unwind:"$bookableObject"},
+{$unwind:"$bookableObject.tnxStatus"},
+{$match:{$and:[{'bookableObject.tnxStatus.bookedDates.date':'2017-10-23'},
+{'bookableObject.session.code':'MOR'}]}},
+{'$group':{_id:'$category',bookings:{$push:'$bookableObject'}}}
+]
+)
+
+
+db.getCollection('health').aggregate([
+{$unwind:"$bookableObject"},
+{$unwind:"$bookableObject.tnxStatus"},
+{$match:{$and:[{'bookableObject.tnxStatus.bookedDates.date':'2017-10-23'},
+{'bookableObject.session.code':'MOR'}]}},
+{'$group':{_id:'$resource',bookings:{$push:'$bookableObject.tnxStatus'},count:{$sum:1}}}
+]
+)
+
+
+db.getCollection('health').aggregate([
+{$unwind:"$bookableObject"},
+{$unwind:"$bookableObject.tnxStatus"},
+{$match:{$and:[{'bookableObject.tnxStatus.bookedDates.date':'2017-10-23'},
+{'bookableObject.session.code':'MOR'}]}},
+{'$group':{_id:{source:'$resource',bb:'$bookableObject'},bookings:{$push:'$bookableObject.tnxStatus'},count:{$sum:1}}}
+]
+)
+
+db.getCollection('health').aggregate([
+{$unwind:"$bookableObject"},
+{$unwind:"$bookableObject.tnxStatus"},
+{$match:{$and:[{'bookableObject.tnxStatus.bookedDates.date':'2017-10-23'},
+{'bookableObject.session.code':'MOR'}]}},
+{'$group':{_id:{source:'$resource',day:'$bookableObject.day',maxBookings:'$bookableObject.maxBookings',session:'$bookableObject.session',absentDays:'$bookableObject.absentDays'}
+,bookings:{$push:'$bookableObject.tnxStatus'},count:{$sum:1}}}
+]
+)
+
+
+===============get seesion if not in the request ===============================
+db.getCollection('health').aggregate([
+{$match:{'code':'AB3'}},
+{$unwind:'$bookableObject'},
+{$group:{_id:'$resource',cc:{$push:'$bookableObject.session.code'}, count:{$sum:1}}}
+])
+===============================================================================
+
+db.getCollection('health').aggregate([
+{$unwind:"$bookableObject"},
+{$match:{$and:[
+    {'bookableObject.session.code':'MOR'},
+    {'code':'AB3'},
+    {'bookableObject.day':'MONDAY'}]}},
+    {$project:{
+        'resource':1,
+        'bookableObject.maxBookings':1,
+        'items':
+             {$filter:{input:'$bookableObject.tnxStatus',as:'data',
+                        cond: { $and: [{$eq:['$$data.bookedDates.date', '2017-10-23']},
+                                        {$ne:['$$data.bookedDates.status',3]}
+                                       ]
+                               }                    
+                      }
+            }
+       }
+   } 
+
+]
+)
+
+
+
+{$eq:['$$data.bookedDates.date', '2017-10-23']},
+                                       {$eq:['$$data.bookedDates.status',1]}
+
+
+
+
+
+
+
+
+
+===================================================================================================
+
+db.getCollection('health').aggregate([
+{$unwind:'$bookableObject'},
+{$match:{$and:[
+    {'code':'DBB'},
+    {'bookableObject.day':'MONDAY'}
+    ]}}
+    ,
+{$unwind:'$bookableObject.tnxStatus'},
+{$match:{$and:[{'bookableObject.tnxStatus.bookedDate.date':'2018-02-26'},
+            {'bookableObject.tnxStatus.bookedDate.status':{$ne:3}}
+]}},
+{$group:{_id:{source:'$code',maximum:'$bookableObject.maxBookings'},
+tnx:{$push:'$bookableObject.tnxStatus'},count:{$sum:1}
+}},
+{$project:{'tnx':1,'count':1,'id.maximum':1,'limit':{$gte:['$count','$_id.maximum']}}}
+])
+

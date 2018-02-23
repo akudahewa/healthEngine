@@ -1,0 +1,312 @@
+{"level":"error","message":"could not find any matching category undefined","timestamp":"2017-12-15T20:34:22.359Z"}
+{"level":"error","message":"could not find any matching category for : undefined","timestamp":"2017-12-15T20:37:11.581Z"}
+{"level":"error","message":"could not find any matching category for : undefined","timestamp":"2017-12-15T20:38:24.601Z"}
+{"level":"error","message":"could not find any matching category for : undefined","timestamp":"2017-12-15T20:39:24.271Z"}
+{"level":"error","message":"could not find any matching category for : undefined","timestamp":"2017-12-15T20:41:01.828Z"}
+{"level":"error","message":"could not find any matching category for : undefined","timestamp":"2017-12-15T20:41:35.830Z"}
+{"level":"error","message":"could not find any matching category for : undefined","timestamp":"2017-12-15T20:42:54.272Z"}
+{"level":"error","message":"could not find any matching category for : undefined","timestamp":"2017-12-15T20:44:24.231Z"}
+{"level":"error","message":"could not find any matching category for : undefined","timestamp":"2017-12-15T20:46:55.336Z"}
+{"level":"error","message":"could not find any matching category for : undefined","timestamp":"2017-12-15T20:49:17.464Z"}
+{"level":"error","message":"could not find any matching category for : undefined","timestamp":"2017-12-15T20:50:31.218Z"}
+{"level":"error","message":"request failed ,code :422","timestamp":"2017-12-15T20:50:31.219Z"}
+{"level":"error","message":"could not find any matching category for : undefined","timestamp":"2017-12-15T20:51:20.761Z"}
+{"level":"error","message":"request failed ,code :422 ,error :invalid or missing category parameter in request","timestamp":"2017-12-15T20:51:20.761Z"}
+{"level":"error","message":"Missing rootResourceId ","timestamp":"2017-12-18T00:41:19.750Z"}
+{"level":"error","message":"Missing rootResourceId ","timestamp":"2017-12-18T00:42:26.841Z"}
+{"message":"Missing rootResourceId","stack":"Error: Missing rootResourceId\n    at Health.updateResource (/home/amila/workspace/bungalowLK/api/controllers/health/healthController.js:220:15)\n    at /home/amila/workspace/bungalowLK/api/controllers/requestManager.js:58:10\n    at Object.exports.getResourceObject (/home/amila/workspace/bungalowLK/api/controllers/factory/resourceFactory.js:9:10)\n    at exports.updateResource (/home/amila/workspace/bungalowLK/api/controllers/requestManager.js:54:13)\n    at Layer.handle [as handle_request] (/home/amila/workspace/bungalowLK/node_modules/express/lib/router/layer.js:95:5)\n    at next (/home/amila/workspace/bungalowLK/node_modules/express/lib/router/route.js:137:13)\n    at next (/home/amila/workspace/bungalowLK/node_modules/express/lib/router/route.js:131:14)\n    at next (/home/amila/workspace/bungalowLK/node_modules/express/lib/router/route.js:131:14)\n    at Route.dispatch (/home/amila/workspace/bungalowLK/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/home/amila/workspace/bungalowLK/node_modules/express/lib/router/layer.js:95:5)\n    at /home/amila/workspace/bungalowLK/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/home/amila/workspace/bungalowLK/node_modules/express/lib/router/index.js:335:12)\n    at next (/home/amila/workspace/bungalowLK/node_modules/express/lib/router/index.js:275:10)\n    at /home/amila/workspace/bungalowLK/node_modules/body-parser/lib/read.js:130:5\n    at invokeCallback (/home/amila/workspace/bungalowLK/node_modules/raw-body/index.js:262:16)\n    at done (/home/amila/workspace/bungalowLK/node_modules/raw-body/index.js:251:7)","level":"error","timestamp":"2017-12-18T00:42:26.842Z"}
+{"level":"error","message":"Error occur while validating session : %sTypeError: Cannot read property 'session' of undefined","timestamp":"2018-01-12T22:37:51.584Z"}
+{"level":"error","message":"Error occur while validating session : %sTypeError: Cannot read property 'session' of undefined","timestamp":"2018-01-12T22:40:45.916Z"}
+{"level":"error","message":"Error occur while validating session : %sTypeError: Cannot read property 'session' of undefined","timestamp":"2018-01-12T22:42:44.022Z"}
+{"level":"error","message":"Invalid user request for given code :AB3","timestamp":"2018-01-12T23:01:17.977Z"}
+{"level":"error","message":"Error occur while validating session : %sTypeError: Cannot read property 'includes' of undefined","timestamp":"2018-01-12T23:39:29.306Z"}
+{"level":"error","message":"Invalid user request for given code :AB3","timestamp":"2018-01-12T23:39:29.306Z"}
+{"level":"error","message":"Error occur while validating session : %sReferenceError: req is not defined","timestamp":"2018-01-16T22:49:46.857Z"}
+{"level":"error","message":"Invalid user request for given code :AB3","timestamp":"2018-01-16T22:49:46.858Z"}
+{"level":"error","message":"Invalid user request for given code :AB3","timestamp":"2018-01-16T22:52:18.555Z"}
+{"level":"error","message":"Invalid user request for given code :TypeError: Cannot read property 'code' of undefined","timestamp":"2018-01-16T22:53:58.414Z"}
+{"level":"error","message":"Error occur while validating session : %sTypeError: Cannot read property 'session' of undefined","timestamp":"2018-01-18T21:48:56.213Z"}
+{"level":"error","message":"Invalid user request for given code :Error: DataRetrivingError","timestamp":"2018-01-18T21:48:56.214Z"}
+{"level":"error","message":"Invalid user request for given code :ReferenceError: resolve is not defined","timestamp":"2018-01-18T21:52:18.948Z"}
+{"level":"error","message":"Error occur while validating session : %sTypeError: Cannot read property 'session' of undefined","timestamp":"2018-01-19T21:41:14.754Z"}
+{"level":"error","message":"Invalid user request for given code :Error: DataRetrivingError","timestamp":"2018-01-19T21:41:14.755Z"}
+{"level":"error","message":"Error occur while validating session : %sTypeError: Cannot read property 'session' of undefined","timestamp":"2018-01-19T21:52:38.237Z"}
+{"level":"error","message":"Invalid user request for given code :Error: DataRetrivingError","timestamp":"2018-01-19T21:52:38.238Z"}
+{"level":"error","message":"Error occur while validating session : %sTypeError: Cannot read property 'session' of undefined","timestamp":"2018-01-19T21:59:31.922Z"}
+{"level":"error","message":"Invalid user request for given code :Error: DataRetrivingError","timestamp":"2018-01-19T21:59:31.922Z"}
+{"level":"error","message":"Not available for given session","timestamp":"2018-01-19T22:00:15.603Z"}
+{"level":"error","message":"Invalid user request for given code :Error: Doctor is not available","timestamp":"2018-01-19T22:00:15.604Z"}
+{"level":"error","message":"Not available for given session","timestamp":"2018-01-19T22:01:09.011Z"}
+{"level":"error","message":"Not available for given session","timestamp":"2018-01-19T22:06:49.263Z"}
+{"level":"error","message":"Invalid user request for given code :Error: Doctor not available","timestamp":"2018-01-19T22:06:49.264Z"}
+{"level":"error","message":"Invalid user request for given code :ReferenceError: code is not defined","timestamp":"2018-01-19T23:12:31.736Z"}
+{"level":"error","message":"Invalid user request for given code :ReferenceError: code is not defined","timestamp":"2018-01-19T23:14:16.022Z"}
+{"level":"error","message":"Invalid user request for given code :ReferenceError: session is not defined","timestamp":"2018-01-19T23:15:34.008Z"}
+{"level":"error","message":"Error occur while reading resources :MongoError: $in needs an array","timestamp":"2018-01-19T23:24:05.724Z"}
+{"level":"error","message":"can not match any category for request :HEALTH","timestamp":"2018-01-19T23:43:56.613Z"}
+{"level":"error","message":"can not match any category for request :HEALTH","timestamp":"2018-01-19T23:44:40.357Z"}
+{"level":"error","message":"can not match any category for request :HEALTH","timestamp":"2018-01-19T23:45:04.606Z"}
+{"level":"error","message":"can not match any category for request :HEALTH1","timestamp":"2018-01-19T23:46:39.529Z"}
+{"level":"error","message":"can not match any category for request :HEALTH1","timestamp":"2018-01-19T23:47:35.702Z"}
+{"level":"error","message":"can not match any category for request :HEALTH1","timestamp":"2018-01-22T03:17:13.003Z"}
+{"level":"error","message":"can not match any category for request :HEALTH1","timestamp":"2018-01-23T16:23:06.271Z"}
+{"level":"error","message":"request failed ,code :422 ,error :invalid or missing category parameter in request","timestamp":"2018-01-23T16:23:06.272Z"}
+{"level":"error","message":"can not match any category for request :HEALTH1","timestamp":"2018-01-23T22:38:45.633Z"}
+{"level":"error","message":"request failed ,code :422 ,error :invalid or missing category parameter in request","timestamp":"2018-01-23T22:38:45.634Z"}
+{"level":"error","message":"Request date is undefined","timestamp":"2018-01-23T22:41:48.367Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee Error: invalidDate","timestamp":"2018-01-23T22:41:48.369Z"}
+{"level":"error","message":"Request date is undefined","timestamp":"2018-01-23T22:47:41.312Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee ReferenceError: MISSING_DATE is not defined","timestamp":"2018-01-23T22:47:41.315Z"}
+{"level":"error","message":"request failed ,code :422 ,error :ReferenceError: MISSING_DATE is not defined","timestamp":"2018-01-23T22:47:41.315Z"}
+{"level":"error","message":"Booking date is undefined","timestamp":"2018-01-23T22:51:05.923Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee Error: Booking date is missed","timestamp":"2018-01-23T22:51:05.925Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: Booking date is missed","timestamp":"2018-01-23T22:51:05.926Z"}
+{"level":"error","message":"Booking date is undefined","timestamp":"2018-01-23T22:52:18.110Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee Error: Booking date is missed","timestamp":"2018-01-23T22:52:18.111Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: Booking date is missed","timestamp":"2018-01-23T22:52:18.112Z"}
+{"level":"error","message":"Booking date is undefined","timestamp":"2018-01-23T22:52:48.389Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee Error: Booking date is missed","timestamp":"2018-01-23T22:52:48.391Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: Booking date is missed","timestamp":"2018-01-23T22:52:48.392Z"}
+{"level":"error","message":"Booking date is undefined","timestamp":"2018-01-23T22:53:52.287Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee Error: Booking date is missed","timestamp":"2018-01-23T22:53:52.288Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: Booking date is missed","timestamp":"2018-01-23T22:53:52.289Z"}
+{"level":"error","message":"Booking date is undefined","timestamp":"2018-01-23T22:54:48.228Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee Error: Booking date is missed","timestamp":"2018-01-23T22:54:48.231Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: Booking date is missed","timestamp":"2018-01-23T22:54:48.231Z"}
+{"level":"error","message":"Booking date is undefined","timestamp":"2018-01-23T22:55:15.738Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee Error: Booking date is missed","timestamp":"2018-01-23T22:55:15.740Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: Booking date is missed","timestamp":"2018-01-23T22:55:15.741Z"}
+{"level":"error","message":"Booking date is undefined","timestamp":"2018-01-23T22:59:10.914Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee Error: Booking date is missed","timestamp":"2018-01-23T22:59:10.917Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: Booking date is missed","timestamp":"2018-01-23T22:59:10.918Z"}
+{"level":"error","message":"Request session does not match with DB ","timestamp":"2018-01-23T23:17:21.174Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee Error: Doctor not available","timestamp":"2018-01-23T23:17:21.175Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: Doctor not available","timestamp":"2018-01-23T23:17:21.176Z"}
+{"level":"error","message":"Request session does not match with DB ","timestamp":"2018-01-23T23:17:24.184Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee Error: Doctor not available","timestamp":"2018-01-23T23:17:24.184Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: Doctor not available","timestamp":"2018-01-23T23:17:24.184Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee Error: Invalid date","timestamp":"2018-01-23T23:42:17.385Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: Invalid date","timestamp":"2018-01-23T23:42:17.386Z"}
+{"level":"error","message":"Booking date is undefined. Getting today as a default","timestamp":"2018-01-23T23:42:33.576Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee TypeError: date.getDay is not a function","timestamp":"2018-01-23T23:42:33.597Z"}
+{"level":"error","message":"request failed ,code :422 ,error :TypeError: date.getDay is not a function","timestamp":"2018-01-23T23:42:33.597Z"}
+{"level":"error","message":"Booking date is undefined. Getting today as a default","timestamp":"2018-01-23T23:43:35.424Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee TypeError: date.getDay is not a function","timestamp":"2018-01-23T23:43:35.429Z"}
+{"level":"error","message":"request failed ,code :422 ,error :TypeError: date.getDay is not a function","timestamp":"2018-01-23T23:43:35.430Z"}
+{"level":"error","message":"Booking date is undefined. Getting today as a default","timestamp":"2018-01-23T23:45:41.211Z"}
+{"level":"error","message":"Request session does not match with DB ","timestamp":"2018-01-23T23:45:41.226Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee Error: Doctor not available","timestamp":"2018-01-23T23:45:41.227Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: Doctor not available","timestamp":"2018-01-23T23:45:41.227Z"}
+{"level":"error","message":"Booking date is undefined. Getting today as a default","timestamp":"2018-01-23T23:58:38.540Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee ReferenceError: day is not defined","timestamp":"2018-01-23T23:58:38.546Z"}
+{"level":"error","message":"request failed ,code :422 ,error :ReferenceError: day is not defined","timestamp":"2018-01-23T23:58:38.547Z"}
+{"level":"error","message":"Booking date is undefined. Getting today as a default","timestamp":"2018-01-23T23:59:12.635Z"}
+{"level":"error","message":"Request session does not match with DB ","timestamp":"2018-01-23T23:59:12.653Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee Error: Doctor not available","timestamp":"2018-01-23T23:59:12.654Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: Doctor not available","timestamp":"2018-01-23T23:59:12.659Z"}
+{"level":"error","message":"Booking date is undefined. Getting today as a default","timestamp":"2018-01-25T16:01:27.520Z"}
+{"level":"error","message":"Request session does not match with DB ","timestamp":"2018-01-25T16:01:27.556Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee Error: Invalid session","timestamp":"2018-01-25T16:01:27.557Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: Invalid session","timestamp":"2018-01-25T16:01:27.557Z"}
+{"level":"error","message":"Error occur while getting session from db : TypeError: Cannot read property 'session' of undefined","timestamp":"2018-01-25T16:02:08.235Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee Error: DBException","timestamp":"2018-01-25T16:02:08.235Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: DBException","timestamp":"2018-01-25T16:02:08.235Z"}
+{"level":"error","message":"Error occur while getting session from db : TypeError: Cannot read property 'session' of undefined","timestamp":"2018-01-25T16:03:10.302Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee Error: DBException","timestamp":"2018-01-25T16:03:10.303Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: DBException","timestamp":"2018-01-25T16:03:10.303Z"}
+{"level":"error","message":"Error occur while getting session from db : TypeError: Cannot read property 'session' of undefined","timestamp":"2018-01-25T16:06:20.272Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee Error: DBException","timestamp":"2018-01-25T16:06:20.272Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: DBException","timestamp":"2018-01-25T16:06:20.272Z"}
+{"level":"error","message":"Error occur while getting session from db : TypeError: Cannot read property 'session' of undefined","timestamp":"2018-01-25T22:13:16.947Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee Error: DBException","timestamp":"2018-01-25T22:13:16.948Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: DBException","timestamp":"2018-01-25T22:13:16.948Z"}
+{"level":"error","message":"Error occur while getting session from db : TypeError: Cannot read property 'session' of undefined","timestamp":"2018-01-26T04:08:47.255Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee Error: DBException","timestamp":"2018-01-26T04:08:47.256Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: DBException","timestamp":"2018-01-26T04:08:47.256Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee Error: Booking session is missing","timestamp":"2018-01-26T04:16:19.486Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: Booking session is missing","timestamp":"2018-01-26T04:16:19.487Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee TypeError: Cannot read property 'session' of undefined","timestamp":"2018-01-26T04:26:59.178Z"}
+{"level":"error","message":"request failed ,code :422 ,error :TypeError: Cannot read property 'session' of undefined","timestamp":"2018-01-26T04:26:59.179Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee TypeError: Cannot read property 'session' of undefined","timestamp":"2018-01-26T04:39:48.412Z"}
+{"level":"error","message":"request failed ,code :422 ,error :TypeError: Cannot read property 'session' of undefined","timestamp":"2018-01-26T04:39:48.413Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee TypeError: Cannot read property 'session' of undefined","timestamp":"2018-01-26T04:40:59.519Z"}
+{"level":"error","message":"request failed ,code :422 ,error :TypeError: Cannot read property 'session' of undefined","timestamp":"2018-01-26T04:40:59.523Z"}
+{"level":"error","message":"Request session does not match with DB ","timestamp":"2018-01-26T04:41:13.994Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee Error: Invalid session","timestamp":"2018-01-26T04:41:13.994Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: Invalid session","timestamp":"2018-01-26T04:41:13.995Z"}
+{"level":"error","message":"Request session does not match with DB ","timestamp":"2018-01-26T05:19:10.256Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee Error: Invalid session","timestamp":"2018-01-26T05:19:10.257Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: Invalid session","timestamp":"2018-01-26T05:19:10.257Z"}
+{"level":"error","message":"Request session does not match with DB ","timestamp":"2018-01-26T05:22:45.770Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee Error: Invalid session","timestamp":"2018-01-26T05:22:45.770Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: Invalid session","timestamp":"2018-01-26T05:22:45.771Z"}
+{"level":"error","message":"Request session does not match with DB ","timestamp":"2018-01-26T05:23:02.939Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee Error: Invalid session","timestamp":"2018-01-26T05:23:02.940Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: Invalid session","timestamp":"2018-01-26T05:23:02.940Z"}
+{"level":"error","message":"Request session does not match with DB ","timestamp":"2018-01-26T05:24:18.240Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee Error: Invalid session","timestamp":"2018-01-26T05:24:18.241Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: Invalid session","timestamp":"2018-01-26T05:24:18.241Z"}
+{"level":"error","message":"Request session does not match with DB ","timestamp":"2018-01-26T05:29:00.096Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee Error: Invalid session","timestamp":"2018-01-26T05:29:00.096Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: Invalid session","timestamp":"2018-01-26T05:29:00.097Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee TypeError: Cannot read property 'session' of undefined","timestamp":"2018-01-26T05:36:47.075Z"}
+{"level":"error","message":"request failed ,code :422 ,error :TypeError: Cannot read property 'session' of undefined","timestamp":"2018-01-26T05:36:47.075Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee TypeError: Cannot read property 'session' of undefined","timestamp":"2018-01-26T05:37:39.145Z"}
+{"level":"error","message":"request failed ,code :422 ,error :TypeError: Cannot read property 'session' of undefined","timestamp":"2018-01-26T05:37:39.145Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee TypeError: Cannot read property 'session' of undefined","timestamp":"2018-01-26T05:38:43.606Z"}
+{"level":"error","message":"request failed ,code :422 ,error :TypeError: Cannot read property 'session' of undefined","timestamp":"2018-01-26T05:38:43.606Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee TypeError: Cannot read property 'session' of undefined","timestamp":"2018-01-26T05:39:33.321Z"}
+{"level":"error","message":"request failed ,code :422 ,error :TypeError: Cannot read property 'session' of undefined","timestamp":"2018-01-26T05:39:33.322Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee TypeError: Cannot read property 'session' of undefined","timestamp":"2018-01-26T05:40:38.746Z"}
+{"level":"error","message":"request failed ,code :422 ,error :TypeError: Cannot read property 'session' of undefined","timestamp":"2018-01-26T05:40:38.747Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee Error: Doctor is unavailable","timestamp":"2018-01-26T05:44:31.296Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: Doctor is unavailable","timestamp":"2018-01-26T05:44:31.296Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee ReferenceError: resolve is not defined","timestamp":"2018-01-27T09:08:36.726Z"}
+{"level":"error","message":"request failed ,code :422 ,error :ReferenceError: resolve is not defined","timestamp":"2018-01-27T09:08:36.727Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee ReferenceError: date is not defined","timestamp":"2018-01-27T09:09:11.670Z"}
+{"level":"error","message":"request failed ,code :422 ,error :ReferenceError: date is not defined","timestamp":"2018-01-27T09:09:11.670Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee TypeError: reqObj.date.getDay is not a function","timestamp":"2018-01-27T09:09:52.756Z"}
+{"level":"error","message":"request failed ,code :422 ,error :TypeError: reqObj.date.getDay is not a function","timestamp":"2018-01-27T09:09:52.757Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee ReferenceError: date is not defined","timestamp":"2018-01-27T09:12:06.344Z"}
+{"level":"error","message":"request failed ,code :422 ,error :ReferenceError: date is not defined","timestamp":"2018-01-27T09:12:06.345Z"}
+{"level":"error","message":"..................................","timestamp":"2018-01-27T22:23:06.623Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee ReferenceError: data is not defined","timestamp":"2018-01-27T22:32:21.312Z"}
+{"level":"error","message":"request failed ,code :422 ,error :ReferenceError: data is not defined","timestamp":"2018-01-27T22:32:21.312Z"}
+{"level":"error","message":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee TypeError: Promise resolver #<Object> is not a function","timestamp":"2018-01-27T22:55:31.304Z"}
+{"level":"error","message":"request failed ,code :422 ,error :TypeError: Promise resolver #<Object> is not a function","timestamp":"2018-01-27T22:55:31.304Z"}
+{"level":"error","message":"Error while getResource : ReferenceError: constants is not defined","timestamp":"2018-01-30T00:38:47.311Z"}
+{"level":"error","message":"request failed ,code :422 ,error :ReferenceError: constants is not defined","timestamp":"2018-01-30T00:38:47.311Z"}
+{"level":"error","message":"Request session doest not appear EVE","timestamp":"2018-02-09T00:35:09.187Z"}
+{"level":"error","message":"Error while getResource : Error: Invalid session","timestamp":"2018-02-09T00:35:09.188Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: Invalid session","timestamp":"2018-02-09T00:35:09.188Z"}
+{"level":"error","message":"Request session doest not appear MOR","timestamp":"2018-02-09T03:44:31.587Z"}
+{"level":"error","message":"Error while getResource : Error: Invalid session","timestamp":"2018-02-09T03:44:31.588Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: Invalid session","timestamp":"2018-02-09T03:44:31.588Z"}
+{"level":"error","message":"Request session doest not appear MOR","timestamp":"2018-02-09T03:45:10.494Z"}
+{"level":"error","message":"Error while getResource : Error: Invalid session","timestamp":"2018-02-09T03:45:10.494Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: Invalid session","timestamp":"2018-02-09T03:45:10.495Z"}
+{"level":"error","message":"Coundn't find the sessions from db.Request terminated. ","timestamp":"2018-02-09T04:14:56.159Z"}
+{"level":"error","message":"Error occur while getting session from db : ReferenceError: constants is not defined","timestamp":"2018-02-09T04:14:56.160Z"}
+{"level":"error","message":"Error while getResource : Error: DBException","timestamp":"2018-02-09T04:14:56.160Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: DBException","timestamp":"2018-02-09T04:14:56.160Z"}
+{"level":"error","message":"Coundn't find the sessions from db.Request terminated. ","timestamp":"2018-02-09T04:15:33.880Z"}
+{"level":"error","message":"Request session doest not appear MOR","timestamp":"2018-02-09T04:15:33.881Z"}
+{"level":"error","message":"Error while getResource : Error:  Internal server error","timestamp":"2018-02-09T04:15:33.882Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error:  Internal server error","timestamp":"2018-02-09T04:15:33.882Z"}
+{"level":"error","message":"Error while getResource : ReferenceError: req is not defined","timestamp":"2018-02-09T12:29:06.228Z"}
+{"level":"error","message":"request failed ,code :422 ,error :ReferenceError: req is not defined","timestamp":"2018-02-09T12:29:06.229Z"}
+{"level":"error","message":"Request session doest not appear MOR","timestamp":"2018-02-09T12:31:06.264Z"}
+{"level":"error","message":"Error while getResource : Error: Invalid session","timestamp":"2018-02-09T12:31:06.266Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: Invalid session","timestamp":"2018-02-09T12:31:06.267Z"}
+{"level":"error","message":"Request session doest not appear MOR","timestamp":"2018-02-09T12:35:32.873Z"}
+{"level":"error","message":"Error while getResource : Error: Invalid session","timestamp":"2018-02-09T12:35:32.874Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: Invalid session","timestamp":"2018-02-09T12:35:32.875Z"}
+{"level":"error","message":"Request session doest not appear MOR","timestamp":"2018-02-09T12:39:33.936Z"}
+{"level":"error","message":"Error while getResource : Error: Invalid session","timestamp":"2018-02-09T12:39:33.936Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: Invalid session","timestamp":"2018-02-09T12:39:33.937Z"}
+{"level":"error","message":"Sessions not found in the system. Invalid data in data base","timestamp":"2018-02-09T12:50:10.089Z"}
+{"level":"error","message":"Error occur while getting session from db : TypeError: Cannot read property 'session' of undefined","timestamp":"2018-02-09T12:50:10.090Z"}
+{"level":"error","message":"Error while getResource : Error:  Internal server error","timestamp":"2018-02-09T12:50:10.090Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error:  Internal server error","timestamp":"2018-02-09T12:50:10.091Z"}
+{"level":"error","message":"Sessions not found in the system. Invalid data in data base","timestamp":"2018-02-09T12:54:19.550Z"}
+{"level":"error","message":"Error while getResource : Error:  Internal server error","timestamp":"2018-02-09T12:54:19.551Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error:  Internal server error","timestamp":"2018-02-09T12:54:19.551Z"}
+{"level":"error","message":"Sessions not found in the system. Invalid data in data base","timestamp":"2018-02-09T13:05:33.908Z"}
+{"level":"error","message":"Error while getResource : Error:  Internal server error","timestamp":"2018-02-09T13:05:33.909Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error:  Internal server error","timestamp":"2018-02-09T13:05:33.910Z"}
+{"level":"error","message":"Sessions not found in the system. Invalid data in data base","timestamp":"2018-02-10T12:40:57.318Z"}
+{"level":"error","message":"Error while getResource : Error: server error","timestamp":"2018-02-10T12:40:57.319Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: server error","timestamp":"2018-02-10T12:40:57.319Z"}
+{"level":"error","message":"Sessions not found in the system. Invalid data in data base","timestamp":"2018-02-10T12:43:09.105Z"}
+{"level":"error","message":"Error while getResource : Error: server error","timestamp":"2018-02-10T12:43:09.106Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Error: server error","timestamp":"2018-02-10T12:43:09.106Z"}
+{"level":"error","message":"Sessions not found in the system. Invalid data in data base","timestamp":"2018-02-10T12:46:18.511Z"}
+{"level":"error","message":"Error while getResource : Error: server error","timestamp":"2018-02-10T12:46:18.513Z"}
+{"level":"error","message":"Sessions not found in the system. Invalid data in data base","timestamp":"2018-02-10T13:04:02.391Z"}
+{"level":"error","message":"Error while getResource : Error: server error","timestamp":"2018-02-10T13:04:02.392Z"}
+{"level":"error","message":"Sessions not found in the system. Invalid data in data base","timestamp":"2018-02-10T13:08:03.580Z"}
+{"level":"error","message":"Error while getResource : Error: server error","timestamp":"2018-02-10T13:08:03.581Z"}
+{"level":"error","message":"Sessions not found in the system. Invalid data in data base","timestamp":"2018-02-10T13:09:45.634Z"}
+{"level":"error","message":"Error while getResource : Error:  Internal server error","timestamp":"2018-02-10T13:09:45.635Z"}
+{"level":"error","message":"Session time need to be in request. Multiple sessions available","timestamp":"2018-02-10T13:29:44.883Z"}
+{"level":"error","message":"Error while getResource : Error: Booking session is missing","timestamp":"2018-02-10T13:29:44.885Z"}
+{"level":"error","message":"Request session doest not appear EVE1","timestamp":"2018-02-11T08:35:44.126Z"}
+{"level":"error","message":"Error while getResource : Error: Invalid session","timestamp":"2018-02-11T08:35:44.127Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Invalid session","timestamp":"2018-02-11T08:35:44.127Z"}
+{"level":"error","message":"Request session doest not appear in the system: EVE1","timestamp":"2018-02-11T08:37:03.770Z"}
+{"level":"error","message":"Error while getResource : Error: Invalid session","timestamp":"2018-02-11T08:37:03.771Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Invalid session","timestamp":"2018-02-11T08:37:03.771Z"}
+{"level":"error","message":"Session time need to be in request. Multiple sessions available","timestamp":"2018-02-11T08:37:31.496Z"}
+{"level":"error","message":"Error while getResource : Error: Booking session is missing","timestamp":"2018-02-11T08:37:31.497Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Booking session is missing","timestamp":"2018-02-11T08:37:31.497Z"}
+{"level":"error","message":"Sessions not found in the system. Invalid data in data base","timestamp":"2018-02-11T08:40:33.138Z"}
+{"level":"error","message":"Error while getResource : Error:  Internal server error","timestamp":"2018-02-11T08:40:33.139Z"}
+{"level":"error","message":"Sessions not found in the system. Invalid data in data base","timestamp":"2018-02-12T21:17:42.889Z"}
+{"level":"error","message":"Error while getResource : Error:  Internal server error","timestamp":"2018-02-12T21:17:42.890Z"}
+{"level":"error","message":"Sessions not found in the system. Invalid data in data base","timestamp":"2018-02-13T01:09:58.209Z"}
+{"level":"error","message":"Error while getResource : Error:  Internal server error","timestamp":"2018-02-13T01:09:58.209Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Missing request parameter","timestamp":"2018-02-13T01:10:09.535Z"}
+{"level":"error","message":"Sessions not found in the system. Invalid data in data base","timestamp":"2018-02-13T01:13:12.411Z"}
+{"level":"error","message":"Error while getResource : Error:  Internal server error","timestamp":"2018-02-13T01:13:12.411Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Missing request parameter","timestamp":"2018-02-13T01:13:56.369Z"}
+{"level":"error","message":"Error. Create resources : MongoError: failed to reconnect after 30 attempts with interval 1000 ms","timestamp":"2018-02-13T13:08:32.208Z"}
+{"level":"error","message":"Error occue while POST :Error:  Internal server error","timestamp":"2018-02-13T13:08:32.211Z"}
+{"level":"error","message":"Error. Create resources : MongoError: server instance pool was destroyed","timestamp":"2018-02-13T13:08:57.888Z"}
+{"level":"error","message":"Error occue while POST :Error:  Internal server error","timestamp":"2018-02-13T13:08:57.889Z"}
+{"level":"error","message":"Error. Create resources : MongoError: failed to reconnect after 30 attempts with interval 1000 ms","timestamp":"2018-02-13T13:17:30.975Z"}
+{"level":"error","message":"Error occue while POST :Error:  Internal server error","timestamp":"2018-02-13T13:17:30.977Z"}
+{"level":"error","message":"Error. Create resources : MongoError: failed to reconnect after 30 attempts with interval 1000 ms","timestamp":"2018-02-13T13:19:40.581Z"}
+{"level":"error","message":"Error occue while POST :Error:  Internal server error","timestamp":"2018-02-13T13:19:40.583Z"}
+{"level":"error","message":"Create resources : ValidationError: category: `HEALTH1` is not a valid enum value for path `category`.","timestamp":"2018-02-13T20:24:11.879Z"}
+{"level":"error","message":"POST request terminated:","timestamp":"2018-02-13T20:24:11.880Z"}
+{"level":"error","message":"Create resources : ValidationError: code: Path `code` is required.","timestamp":"2018-02-13T20:27:28.389Z"}
+{"level":"error","message":"POST request terminated:","timestamp":"2018-02-13T20:27:28.391Z"}
+{"level":"error","message":"Add sub resources terminated.","timestamp":"2018-02-14T01:21:48.191Z"}
+{"level":"error","message":"Add sub resources terminated.","timestamp":"2018-02-14T01:22:15.519Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Missing request parameter","timestamp":"2018-02-14T01:22:15.519Z"}
+{"level":"error","message":"Add sub resources terminated.","timestamp":"2018-02-14T01:24:54.555Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Missing request parameter","timestamp":"2018-02-14T01:24:54.556Z"}
+{"level":"error","message":"Add sub resources terminated.","timestamp":"2018-02-14T11:52:02.579Z"}
+{"level":"error","message":"Add sub resources terminated.","timestamp":"2018-02-14T11:54:19.714Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Missing request parameter","timestamp":"2018-02-14T11:54:19.715Z"}
+{"level":"error","message":"Update sub resources terminated.","timestamp":"2018-02-14T11:58:07.971Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Missing request parameter","timestamp":"2018-02-14T11:58:07.972Z"}
+{"level":"error","message":"Update sub resources terminated :ReferenceError: then is not defined","timestamp":"2018-02-14T12:01:36.166Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Missing request parameter","timestamp":"2018-02-14T12:01:36.166Z"}
+{"level":"error","message":"Create resources : ValidationError: code: Path `code` is required.","timestamp":"2018-02-18T09:19:01.968Z"}
+{"level":"error","message":"POST request terminated.","timestamp":"2018-02-18T09:19:01.969Z"}
+{"level":"error","message":"Validating ids :5a8a3b0bb42c727018224b4c,undefined","timestamp":"2018-02-19T02:53:16.035Z"}
+{"level":"error","message":"Add sub resources terminated.","timestamp":"2018-02-19T02:53:16.036Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Missing request parameter","timestamp":"2018-02-19T02:53:16.036Z"}
+{"level":"error","message":"Validating ids :5a8a3b0bb42c727018224b4c,undefined","timestamp":"2018-02-19T12:47:13.056Z"}
+{"level":"error","message":"Add sub resources terminated.","timestamp":"2018-02-19T12:47:13.058Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Missing request parameter","timestamp":"2018-02-19T12:47:13.058Z"}
+{"level":"error","message":"Validating resourceId :5a8a3b0bb42c727018224b4c","timestamp":"2018-02-19T12:49:42.822Z"}
+{"level":"error","message":"Session time need to be in request. Multiple sessions available","timestamp":"2018-02-19T12:59:24.207Z"}
+{"level":"error","message":"Error while getResource : Error: Booking session is missing","timestamp":"2018-02-19T12:59:24.208Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Booking session is missing","timestamp":"2018-02-19T12:59:24.208Z"}
+{"level":"error","message":"Session time need to be in request. Multiple sessions available","timestamp":"2018-02-19T13:04:19.203Z"}
+{"level":"error","message":"Error while getResource : Error: Booking session is missing","timestamp":"2018-02-19T13:04:19.204Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Booking session is missing","timestamp":"2018-02-19T13:04:19.204Z"}
+{"level":"error","message":"Session time need to be in request. Multiple sessions available","timestamp":"2018-02-19T13:14:40.725Z"}
+{"level":"error","message":"Error while getResource : Error: Booking session is missing","timestamp":"2018-02-19T13:14:40.726Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Booking session is missing","timestamp":"2018-02-19T13:14:40.727Z"}
+{"level":"error","message":"Creating a transaction :MongoError: cannot use the part (tnxStatus of bookableObject.0.tnxStatus.mobileNo) to traverse the element ({tnxStatus: [ { bookedDate: { date: \"2018-02-26\", status: 1 }, userId: \"10\", amount: 100, commission: 10, _id: ObjectId('5a8bb53294429e1d63a3bfee') }, { bookedDate: { date: \"2018-02-26\", status: 1 }, userId: \"10\", amount: 100, commission: 10, _id: ObjectId('5a8bb5664696ea1dabd02529') } ]})","timestamp":"2018-02-20T05:46:19.123Z"}
+{"level":"error","message":"Creating a transaction :MongoError: cannot use the part (tnxStatus of bookableObject.0.tnxStatus.mobileNo) to traverse the element ({tnxStatus: []})","timestamp":"2018-02-20T05:47:09.182Z"}
+{"level":"error","message":"Create transaction terminated :TypeError: Cannot read property 'then' of undefined","timestamp":"2018-02-21T01:23:15.718Z"}
+{"level":"error","message":"Creating a transaction :ValidationError: bookableObject.0.tnxStatus: Validation failed: mobileNo: Path `mobileNo` is required.","timestamp":"2018-02-21T01:28:55.974Z"}
+{"level":"error","message":"Creating a transaction :ValidationError: bookableObject.0.tnxStatus: Validation failed: mobileNo: Path `mobileNo` is required.","timestamp":"2018-02-21T01:58:49.985Z"}
+{"level":"error","message":"Creating a transaction :ValidationError: bookableObject.0.tnxStatus: Validation failed: mobileNo: Path `mobileNo` is required.","timestamp":"2018-02-21T01:59:09.192Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Missing request parameter","timestamp":"2018-02-21T01:59:09.193Z"}
+{"level":"error","message":"Create transaction terminated :TypeError: (intermediate value).exec is not a function","timestamp":"2018-02-22T20:55:56.520Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Missing request parameter","timestamp":"2018-02-22T20:55:56.520Z"}
+{"level":"error","message":"Create transaction terminated :TypeError: Cannot read property 'then' of undefined","timestamp":"2018-02-22T21:05:12.883Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Missing request parameter","timestamp":"2018-02-22T21:05:12.883Z"}
+{"level":"error","message":"Create transaction terminated :TypeError: Cannot read property 'then' of undefined","timestamp":"2018-02-22T21:14:05.988Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Missing request parameter","timestamp":"2018-02-22T21:14:05.988Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Missing request parameter","timestamp":"2018-02-22T21:16:32.042Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Missing request parameter","timestamp":"2018-02-22T21:17:36.206Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Missing request parameter","timestamp":"2018-02-22T21:18:54.733Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Missing request parameter","timestamp":"2018-02-22T21:19:38.202Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Missing request parameter","timestamp":"2018-02-22T21:20:18.738Z"}
+{"level":"error","message":"request failed ,code :422 ,error :Missing request parameter","timestamp":"2018-02-22T21:21:38.149Z"}

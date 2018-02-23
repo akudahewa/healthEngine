@@ -1,0 +1,38 @@
+1. Get resources 
+
+1.1 GET 
+ 	date = valid date
+ 	code = valid code
+ 	session = valid session
+ 	does not find any session in db => 500, internal server error
+
+ 1.2 GET
+ 	date = valid date
+ 	code = valid code
+ 	session = 
+ 	Request does not have sesiion. multiple sessions found in the db => 422, invalid request, session missed
+
+ 1.3 GET
+  	date = valid date
+ 	code = valid code
+ 	session = valid session
+ 	Requested session not found in the db => 422, invalid request, session missed
+
+ 1.4 GET
+	date = valid date
+ 	code = valid code
+ 	session = valid session
+ 	Successful request => 200, result set
+
+ 1.5 GET
+    date = invalid date
+ 	code = valid code
+ 	session = valid session
+ 	Request date is invalid => 422,Invalid request, date invalid
+
+ 1.6 GET
+ 	date = invalid date
+ 	code = valid code
+ 	session = valid session
+ 	code is invalid =>422, invalid request , code invaild
+ 	

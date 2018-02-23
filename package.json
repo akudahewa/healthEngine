@@ -1,0 +1,24 @@
+{
+  "name": "booking_engine",
+  "version": "1.0.0",
+  "description": "Web service api for booking engine",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon server.js"
+  },
+  "author": "Amila",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "mongoose": "^5.0.6",
+    "body-parser": "^1.17.2",
+    "winston":"^2.4.0",
+    "dateformat":"3.0.2",
+    "promise":"8.0.1"
+
+  }
+}

@@ -1,0 +1,30 @@
+{"level":"info","message":"Handle get resources ","timestamp":"2018-01-27T04:18:44.734Z"}
+{"level":"info","message":"Trying to generate request object","timestamp":"2018-01-27T04:18:44.736Z"}
+{"level":"info","message":"Trying to get day from the date : 2017-11-27","timestamp":"2018-01-27T04:18:44.736Z"}
+{"level":"info","message":"Extarct day from the date :MONDAY","timestamp":"2018-01-27T04:18:44.736Z"}
+{"level":"info","message":"validating session for [code: AB3, day: MONDAY, session: EVE]","timestamp":"2018-01-27T04:18:44.738Z"}
+{"level":"info","message":"session found from db : [{\"_id\":{\"bindResource\":{\"name\":\"Hashini Medicare\",\"code\":\"AC1\",\"address\":\"10, Base line rd,Amandoluwa\"},\"primaryResource\":{\"name\":\"Dr Hashini\",\"code\":\"AB1\"}},\"session\":[\"MOR\",\"EVE\"],\"count\":2}] , size :1","timestamp":"2018-01-27T04:18:44.744Z"}
+{"level":"info","message":"Requesting session  :EVE","timestamp":"2018-01-27T04:18:44.744Z"}
+{"level":"info","message":"checking absent for :{\"date\":\"2017-11-27\",\"code\":\"AB3\",\"session\":\"EVE\",\"day\":\"MONDAY\"}","timestamp":"2018-01-27T04:18:44.745Z"}
+{"level":"info","message":"Generated query object for check absent [{\"bookableObject.absentDays\":\"2017-11-27\"},{\"code\":\"AB3\"}]","timestamp":"2018-01-27T04:18:44.746Z"}
+{"level":"info","message":"Executing query for check absents ..","timestamp":"2018-01-27T04:18:44.746Z"}
+{"level":"info","message":"Absent data set []","timestamp":"2018-01-27T04:18:44.748Z"}
+{"level":"info","message":"========================== false","timestamp":"2018-01-27T04:18:44.756Z"}
+{"level":"info","message":"setting absent status to request object","timestamp":"2018-01-27T04:18:44.756Z"}
+{"level":"info","message":"DB Access query object :{\"date\":\"2017-11-27\",\"code\":\"AB3\",\"session\":\"EVE\",\"day\":\"MONDAY\",\"isAbsent\":false}","timestamp":"2018-01-27T04:18:44.756Z"}
+{"level":"info","message":"successfully recevied resources: [{\"_id\":\"59fdba1ce3f8163681e1ade1\",\"bookableObject\":{\"maxBookings\":50},\"code\":\"AB3\",\"resource\":{\"bindResource\":{\"name\":\"Hashini Medicare\",\"code\":\"AC1\",\"address\":\"10, Base line rd,Amandoluwa\"},\"primaryResource\":{\"name\":\"Dr Hashini\",\"code\":\"AB1\"}},\"bookings\":[]}]","timestamp":"2018-01-27T04:18:44.758Z"}
+{"level":"info","message":"Handle get resources ","timestamp":1517026849149}
+{"level":"info","message":"Trying to generate request object","timestamp":1517026849150}
+{"level":"info","message":"Trying to get day from the date : 2017-11-27","timestamp":1517026849151}
+{"level":"info","message":"Extarct day from the date :MONDAY","timestamp":1517026849151}
+{"level":"info","message":"validating session for [code: AB3, day: MONDAY, session: EVE]","timestamp":1517026849152}
+{"level":"info","message":"session found from db : [{\"_id\":{\"bindResource\":{\"name\":\"Hashini Medicare\",\"code\":\"AC1\",\"address\":\"10, Base line rd,Amandoluwa\"},\"primaryResource\":{\"name\":\"Dr Hashini\",\"code\":\"AB1\"}},\"session\":[\"MOR\",\"EVE\"],\"count\":2}] , size :1","timestamp":1517026849159}
+{"level":"info","message":"Requesting session  :EVE","timestamp":1517026849159}
+{"level":"info","message":"checking absent for :{\"date\":\"2017-11-27\",\"code\":\"AB3\",\"session\":\"EVE\",\"day\":\"MONDAY\"}","timestamp":1517026849159}
+{"level":"info","message":"Generated query object for check absent [{\"bookableObject.absentDays\":\"2017-11-27\"},{\"code\":\"AB3\"}]","timestamp":1517026849159}
+{"level":"info","message":"Executing query for check absents ..","timestamp":1517026849160}
+{"level":"info","message":"Absent data set []","timestamp":1517026849162}
+{"level":"info","message":"========================== false","timestamp":1517026849162}
+{"level":"info","message":"setting absent status to request object","timestamp":1517026849162}
+{"level":"info","message":"DB Access query object :{\"date\":\"2017-11-27\",\"code\":\"AB3\",\"session\":\"EVE\",\"day\":\"MONDAY\",\"isAbsent\":false}","timestamp":1517026849162}
+{"level":"info","message":"successfully recevied resources: [{\"_id\":\"59fdba1ce3f8163681e1ade1\",\"bookableObject\":{\"maxBookings\":50},\"code\":\"AB3\",\"resource\":{\"bindResource\":{\"name\":\"Hashini Medicare\",\"code\":\"AC1\",\"address\":\"10, Base line rd,Amandoluwa\"},\"primaryResource\":{\"name\":\"Dr Hashini\",\"code\":\"AB1\"}},\"bookings\":[]}]","timestamp":1517026849165}
